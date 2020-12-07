@@ -1,0 +1,114 @@
+.nav_principal .list_principal {
+  float: left;
+  display: flex;
+}
+
+.nav_principal .list_principal li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+.nav_principal .link_bootstrap {
+  cursor: pointer;
+}
+
+.nav_principal .ico_bootstrap {
+  width: 5rem;
+  height: 4.3rem;
+  padding: 0.2rem 4rem;
+}
+
+.nav_principal ul li a {
+  display: block;
+  padding: 0rem 2rem;
+  line-height: 5rem;
+  color: #CBBBBB;
+  text-decoration: none;
+}
+
+.nav_principal .list_principal li .efects_slideboard {
+  display: none;
+  position: absolute;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+}
+
+.nav_principal .efects_slideboard li .link {
+  color: black;
+}
+
+.nav_principal .list_principal li:hover .efects_slideboard {
+  display: block;
+}
+
+.nav_principal .list_principal li .efects_slideboard li {
+  width: 100%;
+}
+
+.nav_principal .list_principal li .efects_slideboard li .link {
+  padding: 1rem 2rem;
+  line-height: unset;
+  white-space: nowrap;
+}
+
+.nav_principal .list_principal li .efects_slideboard li .link:hover {
+  background-color: #efefef;
+}
+
+.header .nav_principal .list_principal .home_link {
+  color: #ffffff;
+}
+
+.link:hover {
+  color: #ffffff;
+}
+
+.redes_icon_github {
+  width: 5rem;
+  height: 4.3rem;
+  padding: 0.6rem 1rem 0rem 0rem;
+}
+
+
+
+
+/************************/
+/****MENU RESPONSIVE*****/
+/************************/
+
+
+@media(max-width:768px){  
+  .nav_principal{
+    background-color: #8201f5;
+    max-width: 100%;
+    height: 35vh;
+    display: flex;
+    font-size: 0.8rem;
+    flex-direction: column;
+    position: relative;
+  }
+  .nav_principal .ico_bootstrap{
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    left: 16rem;
+  }
+  .redes_icon_github {
+    width: 5rem;
+    height: 4.3rem;
+  }
+  .nav_principal .list_principal, .efects_slideboard {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 25vh;
+  }
+  .nav_principal .list_principal .efects_slideboard {
+    width: 18vh;
+    height: 25vh;
+  }
+
+}
+  
+/*# sourceMappingURL=main.css.map */
